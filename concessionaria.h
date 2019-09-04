@@ -14,4 +14,4 @@ class concessionaria{
 	int getCnpj(); 
 	int setCnpj(int c);
 	int getNum_estoque(); 
-	int setMarca(int n);
+	int setNum_estoque(int n);
