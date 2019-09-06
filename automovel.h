@@ -6,6 +6,7 @@ class automovel{
 	private: 
 	string marca; 
 	float preco; 
+	string chassi; 
 	int fab_data;
 	int fab_dia;
 	int fab_mes;
@@ -15,6 +16,8 @@ class automovel{
 	string setMarca(string m); 
 	float getPreco(); 
 	float setPreco(float p);
+	string getChassi(); 
+	string setChassi(string s);
 	int getFab_data(); 
 	int setFab_data(int fd);
 	int getFab_dia(); 
@@ -24,12 +27,3 @@ class automovel{
 }
 
 
-class num_chassi{
-
-//usa numero, caracter e letra
-
-
-
-
-
-}
